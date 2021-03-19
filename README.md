@@ -52,7 +52,7 @@ Quando l'utente effetua una chiamata vengono impostati i seguenti parametri:
 
 ---
 
-##Rotte disponibili
+## Rotte disponibili
 
 Dal programma vengono rese disponibili le seguenti rotte sulla porta 8080 del localhost:
      
@@ -66,7 +66,7 @@ Dal programma vengono rese disponibili le seguenti rotte sulla porta 8080 del lo
  
  
 ---
-##State Events
+## State Events
 
 
 Per poter avere gli eventi di uno stato viene resa disponibile la rotta "/StateEvents", che deve essere utilizzata con il metodo POST. Il parametro della ricerca deve essere passato tramite il body della richiesta che deve contenere un file JSON nel quale deve essere presente la seguente "chiave":"valore":
@@ -151,7 +151,7 @@ Durante l'utilizzo della rotta possono essere lanciate, in caso di errori, le se
  
 ---
 
-##State Statistics
+## State Statistics
 
 
 Per poter ottenere delle statistiche riguardo gli eventi di uno stato  viene resa disponibile la rotta "/StateStatistics", che deve essere utilizzata con il metodo POST. Le statistiche generate sono riguardo massimo,minimo, medio numero di eventi e numero di eventi divisi per genre. I parametri da utilizzare per generare le statistiche devono essere passati tramite il body della richiesta che deve contenere un file JSON contenente la seguente "chiave":"valore":
@@ -211,7 +211,7 @@ Nel caso dell'esempio, il ritorno sarebbe simile a questa:
 	           
 ---
 
-##Filters
+## Filters
 
 
 Per poter filtrare delle statistiche riguardo gli eventi di uno stato viene resa disponibile la rotta "/filters", che deve essere utilizzata con il metodo POST. i filtri generate sono riguardo lo stato con il massimo,minimo, medio numero di eventi e numero di eventi divisi per genre. I parametri da utilizzare per generare le statistiche devono essere passati tramite il body della richiesta che deve contenere un file JSON contenente le seguente coppie "chiave":"valore":
@@ -259,7 +259,7 @@ Durante l'utilizzo della rotta possono essere lanciate, in caso di errori, le se
 
 ---
 
-##Mexico Statistics
+## Mexico Statistics
 
 Per poter ottenere delle statistiche riguardo gli eventi globali(tutto Messico) viene resa 
 
@@ -269,7 +269,7 @@ stato con il massimo,minimo numero di eventi e numero di eventi divisi per genre
 
 ---
 
-##Software utilizzati
+## Software utilizzati
 
 * Eclipse - Ambiente di sviluppo
 
