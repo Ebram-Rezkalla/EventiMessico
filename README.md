@@ -27,19 +27,19 @@ Diagrammi UML
 
 ---
 
-#Diagrammi UML
+## Diagrammi UML
 
-###Diagramma dei casi d'uso
+### Diagramma dei casi d'uso
 ---
 
-##L'applicazione
+## L'applicazione
 
 Tramite L'API Ticketmaster il programma riceve, salva e processa gli eventi riguardanti gli stati ; per far questo utilizza più precisamente l'API "events", la quale descrizione è disponibile al seguente [link](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/#supported-markets)
 
  Più in particolare con gli eventi si intendono il nome dell'evento, la data , il prezzo, la classificazione.
  
 ---
-##Avvio
+## Avvio
  
 All'avvio dell'applicazione verrà caricato dal file data.JSON, presente all'interno della cartella del programma. Se durante il caricamento viene lanciata una qualunque eccezione, viene inizializzato un nuovo data vuoto.
 
