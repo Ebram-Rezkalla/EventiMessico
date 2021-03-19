@@ -33,6 +33,10 @@ Diagrammi UML
 
 <img src="https://github.com/Ebram-Rezkalla/EventiMessico/blob/master/UML/UseCaseDiagram.jpg">
 ---
+### Diagramma delle classi
+
+<img src="https://github.com/Ebram-Rezkalla/EventiMessico/blob/master/UML/ClassDiagram.jpg">
+
 
 ## L'applicazione
 
