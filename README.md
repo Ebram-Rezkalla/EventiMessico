@@ -70,9 +70,9 @@ Dal programma vengono rese disponibili le seguenti rotte sulla porta 8080 del lo
 
 Per poter avere gli eventi di uno stato viene resa disponibile la rotta "/StateEvents", che deve essere utilizzata con il metodo POST. Il parametro della ricerca deve essere passato tramite il body della richiesta che deve contenere un file JSON nel quale deve essere presente la seguente "chiave":"valore":
 
-         Chiave    |     Valore    |  
-     ------------- |:-------------:|
-          State    | nome dello Stato  |
+  Chiave    |     Valore    |  
+  ------------- |:-------------:|
+   State    | nome dello Stato  |
              
  Un esempio può essere:
 
@@ -156,9 +156,9 @@ Durante l'utilizzo della rotta possono essere lanciate, in caso di errori, le se
 Per poter ottenere delle statistiche riguardo gli eventi di uno stato  viene resa disponibile la rotta "/StateStatistics", che deve essere utilizzata con il metodo POST. Le statistiche generate sono riguardo massimo,minimo, medio numero di eventi e numero di eventi divisi per genre. I parametri da utilizzare per generare le statistiche devono essere passati tramite il body della richiesta che deve contenere un file JSON contenente la seguente "chiave":"valore":
 
 
-    Chiave    |     Valore    |  
-     ------------- |:-------------:|
-          State    | nome dello Stato  |
+  Chiave    |     Valore    |  
+    ------------- |:-------------:|
+       State    | nome dello Stato  |
           
  Un esempio può essere:
 
@@ -216,9 +216,9 @@ Nel caso dell'esempio, il ritorno sarebbe simile a questa:
 Per poter filtrare delle statistiche riguardo gli eventi di uno stato viene resa disponibile la rotta "/filters", che deve essere utilizzata con il metodo POST. i filtri generate sono riguardo lo stato con il massimo,minimo, medio numero di eventi e numero di eventi divisi per genre. I parametri da utilizzare per generare le statistiche devono essere passati tramite il body della richiesta che deve contenere un file JSON contenente le seguente coppie "chiave":"valore":
 
 
-     Chiave    |     Valore    |  
+   Chiave    |     Valore    |  
      ------------- |:-------------:|
-          name1    | nome del primo Stato  |
+         name1    | nome del primo Stato  |
 			name2		|	nome del secondo Stato|
 		   genre		|	il genre dell'evento	|
 			from   	|	la data iniziale		| 
