@@ -55,12 +55,11 @@ Quando l'utente effetua una chiamata vengono impostati i seguenti parametri:
 ## Rotte disponibili
 
 Dal programma vengono rese disponibili le seguenti rotte sulla porta 8080 del localhost:
-     
-         Rotta     |     Metodo    | Funzione  
-     ------------- |:-------------:| -----:
-     /StateEvents  |     POST      | restituisce uno stato con gli eventi 
-    /StateStatistic|     POST      | restituisce le statistiche di uno  
-    /MexicoStatistics|   Get       | restituisce le statistiche globali
+              Rotta     |     Metodo    | Funzione  
+------------- |:-------------:| -----:
+   /StateEvents  |     POST      | restituisce uno stato con gli eventi 
+   /StateStatistic|     POST      | restituisce le statistiche di uno  
+  /MexicoStatistics|   Get       | restituisce le statistiche globali
     /filters       |     Post      | filtra le statistiche
 
  
