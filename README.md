@@ -157,8 +157,8 @@ Per poter ottenere delle statistiche riguardo gli eventi di uno stato  viene res
 
 
   Chiave    |     Valore    |  
-    ------------- |:-------------:|
-       State    | nome dello Stato  |
+  ------------- |:-------------:|
+  State    | nome dello Stato  |
           
  Un esempio può essere:
 
@@ -217,12 +217,12 @@ Per poter filtrare delle statistiche riguardo gli eventi di uno stato viene resa
 
 
    Chiave    |     Valore    |  
-     ------------- |:-------------:|
-         name1    | nome del primo Stato  |
-			name2		|	nome del secondo Stato|
-		   genre		|	il genre dell'evento	|
-			from   	|	la data iniziale		| 
-			to			| la data finale         |
+   ------------- |:-------------:|
+  name1    | nome del primo Stato  |
+  name2		|	nome del secondo Stato|
+  genre		|	il genre dell'evento	|
+  from   	|	la data iniziale		| 
+  to			| la data finale         |
 
 Un esempio può essere:
 
