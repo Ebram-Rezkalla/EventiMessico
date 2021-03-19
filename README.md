@@ -60,7 +60,7 @@ Dal programma vengono rese disponibili le seguenti rotte sulla porta 8080 del lo
    /StateEvents  |     POST      | restituisce uno stato con gli eventi 
    /StateStatistic|     POST      | restituisce le statistiche di uno  
   /MexicoStatistics|   Get       | restituisce le statistiche globali
-    /filters       |     Post      | filtra le statistiche
+  /filters       |     Post      | filtra le statistiche
 
  
  
