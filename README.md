@@ -1,4 +1,3 @@
-#Progetto-Programmazione-Ad-Oggetti
 ## Eventi in Messico
 La nostra applicazione permette di avere informazioni riguradanti eventi che avranno luogo in Messico,anche da la possibila' di avere statistiche per ogni stato e statistiche globali.
 L'applicazione permette anche di filtrare le statistiche.
@@ -28,19 +27,19 @@ Diagrammi UML
 
 ---
 
-#Diagrammi UML
+##Diagrammi UML
 
-#####Diagramma dei casi d'uso
+###Diagramma dei casi d'uso
 ---
 
-#L'applicazione
+##L'applicazione
 
 Tramite L'API Ticketmaster il programma riceve, salva e processa gli eventi riguardanti gli stati ; per far questo utilizza più precisamente l'API "events", la quale descrizione è disponibile al seguente [link](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/#supported-markets)
 
  Più in particolare con gli eventi si intendono il nome dell'evento, la data , il prezzo, la classificazione.
  
 ---
-#Avvio
+##Avvio
  
 All'avvio dell'applicazione verrà caricato dal file data.JSON, presente all'interno della cartella del programma. Se durante il caricamento viene lanciata una qualunque eccezione, viene inizializzato un nuovo data vuoto.
 
@@ -53,7 +52,7 @@ Quando l'utente effetua una chiamata vengono impostati i seguenti parametri:
 
 ---
 
-#Rotte disponibili
+##Rotte disponibili
 
 Dal programma vengono rese disponibili le seguenti rotte sulla porta 8080 del localhost:
      
@@ -62,7 +61,7 @@ Dal programma vengono rese disponibili le seguenti rotte sulla porta 8080 del lo
      /StateEvents  |     POST      | restituisce uno stato con gli eventi 
     /StateStatistic|     POST      | restituisce le statistiche di uno  
     /MexicoStatistics|   Get       | restituisce le statistiche globali
-    /filters       |     Post		 | filtra le statistiche
+    /filters       |     Post      | filtra le statistiche
 
  
  
